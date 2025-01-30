@@ -5,7 +5,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="bg-[var(--color-page-bg)] text-[var(--color-page-text)] font-sans">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:projectId" element={<ProjectDetail />} />

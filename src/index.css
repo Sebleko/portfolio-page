@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss/preflight";
 @tailwind utilities;
 
 /* 🌎 Global Theme Variables */
