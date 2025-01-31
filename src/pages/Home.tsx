@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Header />
-      <TechStackOverview />
+      {/* <TechStackOverview /> */}
       <TechStack />
       <PortfolioShowcase />
       <CallToAction />
